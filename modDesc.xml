@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="61">
+	<author>*TurboStar*</author>
+    <version>1.0.0.0</version>
+    <title>
+		<en>Player Speed</en>
+    </title>
+    <description>
+		<en><![CDATA[This mod allows you to set different walking speeds for the farmer.
+Available speeds: x0.2, x0.5, x0.7, standard, x3, x8, x15, x20]]>
+		</en>
+		<de><![CDATA[Mit diesem Mod kannst du verschiedene Spielergeschwindigkeiten einstellen.
+Verfügbare Geschwindigkeiten: x0.2, x0.5, x0.7, standard, x3, x8, x15, x20]]>
+		</de>
+    </description>
+    <iconFilename>modIcon.png</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="PlayerSpeed.lua" />
+    </extraSourceFiles>
+	
+	<l10n>
+		<text name="key0">  		<en>PlayerSpeed: Standard speed</en><de>PlayerSpeed: Normale Geschwindigkeit</de><it>PlayerSpeed: Velocità standard</it><es>PlayerSpeed: Velocidad normal</es></text>
+		<text name="key1">  		<en>PlayerSpeed: Speed x3</en><de>PlayerSpeed: Geschwindigkeit x3</de><it>PlayerSpeed: Velocità x3</it><es>PlayerSpeed: Velocidad x3</es></text>	
+		<text name="key2">  		<en>PlayerSpeed: Speed x8</en><de>PlayerSpeed: Geschwindigkeit x8</de><it>PlayerSpeed: Velocità x8</it><es>PlayerSpeed: Velocidad x8</es></text>	
+		<text name="key15">  		<en>PlayerSpeed: Speed x15</en><de>PlayerSpeed: Geschwindigkeit x15</de><it>PlayerSpeed: Velocità x15</it><es>PlayerSpeed: Velocidad x15</es></text>
+		<text name="key3">  		<en>PlayerSpeed: Speed x20</en><de>PlayerSpeed: Geschwindigkeit x20</de><it>PlayerSpeed: Velocità x20</it><es>PlayerSpeed: Velocidad x20</es></text>
+		<text name="keyslow1">		<en>PlayerSpeed: Speed x0.7</en><de>PlayerSpeed: Geschwindigkeit x0.7</de><it>PlayerSpeed: Velocità x0.7</it><es>PlayerSpeed: Velocidad x0.7</es></text>	
+		<text name="keyslow2">		<en>PlayerSpeed: Speed x0.5</en><de>PlayerSpeed: Geschwindigkeit x0.5</de><it>PlayerSpeed: Velocità x0.5</it><es>PlayerSpeed: Velocidad x0.5</es></text>	
+		<text name="keyslow3"> 		<en>PlayerSpeed: Speed x0.2</en><de>PlayerSpeed: Geschwindigkeit x0.2</de><it>PlayerSpeed: Velocità x0.2</it><es>PlayerSpeed: Velocidad x0.2</es></text>
+		<text name="othermod">  	<en>Farmer speed not handled by PlayerSpeed</en><de><![CDATA[Geschwindigkeit nicht von PlayerSpeed abhängig]]></de><it><![CDATA[Velocità del giocatore non gestita da PlayerSpeed]]></it><es><![CDATA[La velocidad no está controlada por PlayerSpeed]]></es></text>
+
+		<text name="input_SPEEDMINUS">   <en>PlayerSpeed: Decrease speed</en><de>PlayerSpeed: Geschwindigkeit reduzieren</de><it>PlayerSpeed: Diminuisci velocità</it></text>
+		<text name="input_SPEEDPLUS">   <en>PlayerSpeed: Increase speed</en><de>PlayerSpeed: Geschwindigkeit erhöhen</de><it>PlayerSpeed: Aumenta velocità</it></text>
+	</l10n>
+	
+	<actions>
+		<action name="SPEEDMINUS" />
+		<action name="SPEEDPLUS" />
+	</actions>
+	<inputBinding>
+		<actionBinding action="SPEEDMINUS">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_v" />
+		</actionBinding>
+		<actionBinding action="SPEEDPLUS">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_b" />
+		</actionBinding>
+	</inputBinding>
+
+</modDesc>
