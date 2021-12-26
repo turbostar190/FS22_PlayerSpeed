@@ -7,10 +7,12 @@
     </title>
     <description>
 		<en><![CDATA[This mod allows you to set different walking speeds for the farmer.
+
 Available speeds: x0.2, x0.5, x0.7, standard, x3, x8, x15, x20]]>
 		</en>
-		<de><![CDATA[Mit diesem Mod kannst du verschiedene Spielergeschwindigkeiten einstellen.
-Verfügbare Geschwindigkeiten: x0.2, x0.5, x0.7, standard, x3, x8, x15, x20]]>
+		<de><![CDATA[Mit diesem Mod kannst du verschiedene Laufgeschwindigkeiten einstellen.
+
+Verfügbare Geschwindigkeiten: x0.2, x0.5, x0.7, Standard, x3, x8, x15, x20]]>
 		</de>
     </description>
     <iconFilename>modIcon.png</iconFilename>
