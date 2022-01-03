@@ -14,6 +14,10 @@ Available speeds: x0.2, x0.5, x0.7, standard, x3, x8, x15, x20]]>
 
 Verfügbare Geschwindigkeiten: x0.2, x0.5, x0.7, Standard, x3, x8, x15, x20]]>
 		</de>
+		<fr><![CDATA[Ce mod vous permet de régler différentes vitesses d'avancement pour votre personnage lorsqu'il est à pied.
+
+Vitesses disponibles: x0.2, x0.5, x0.7, standard, x3, x8, x15, x20]]>
+		</fr>
     </description>
     <iconFilename>modIcon.png</iconFilename>
     <multiplayer supported="true"/>
@@ -22,18 +26,18 @@ Verfügbare Geschwindigkeiten: x0.2, x0.5, x0.7, Standard, x3, x8, x15, x20]]>
     </extraSourceFiles>
 	
 	<l10n>
-		<text name="key0">  		<en>PlayerSpeed: Standard speed</en><de>PlayerSpeed: Normale Geschwindigkeit</de><it>PlayerSpeed: Velocità standard</it><es>PlayerSpeed: Velocidad normal</es></text>
-		<text name="key1">  		<en>PlayerSpeed: Speed x3</en><de>PlayerSpeed: Geschwindigkeit x3</de><it>PlayerSpeed: Velocità x3</it><es>PlayerSpeed: Velocidad x3</es></text>	
-		<text name="key2">  		<en>PlayerSpeed: Speed x8</en><de>PlayerSpeed: Geschwindigkeit x8</de><it>PlayerSpeed: Velocità x8</it><es>PlayerSpeed: Velocidad x8</es></text>	
-		<text name="key15">  		<en>PlayerSpeed: Speed x15</en><de>PlayerSpeed: Geschwindigkeit x15</de><it>PlayerSpeed: Velocità x15</it><es>PlayerSpeed: Velocidad x15</es></text>
-		<text name="key3">  		<en>PlayerSpeed: Speed x20</en><de>PlayerSpeed: Geschwindigkeit x20</de><it>PlayerSpeed: Velocità x20</it><es>PlayerSpeed: Velocidad x20</es></text>
-		<text name="keyslow1">		<en>PlayerSpeed: Speed x0.7</en><de>PlayerSpeed: Geschwindigkeit x0.7</de><it>PlayerSpeed: Velocità x0.7</it><es>PlayerSpeed: Velocidad x0.7</es></text>	
-		<text name="keyslow2">		<en>PlayerSpeed: Speed x0.5</en><de>PlayerSpeed: Geschwindigkeit x0.5</de><it>PlayerSpeed: Velocità x0.5</it><es>PlayerSpeed: Velocidad x0.5</es></text>	
-		<text name="keyslow3"> 		<en>PlayerSpeed: Speed x0.2</en><de>PlayerSpeed: Geschwindigkeit x0.2</de><it>PlayerSpeed: Velocità x0.2</it><es>PlayerSpeed: Velocidad x0.2</es></text>
-		<text name="othermod">  	<en>Farmer speed not handled by PlayerSpeed</en><de><![CDATA[Geschwindigkeit nicht von PlayerSpeed abhängig]]></de><it><![CDATA[Velocità del giocatore non gestita da PlayerSpeed]]></it><es><![CDATA[La velocidad no está controlada por PlayerSpeed]]></es></text>
+		<text name="key0">  		<en>PlayerSpeed: Standard speed</en><de>PlayerSpeed: Normale Geschwindigkeit</de><it>PlayerSpeed: Velocità standard</it><es>PlayerSpeed: Velocidad normal</es><fr>SpeedPlayer: Vitesse standard</fr></text>
+		<text name="key1">  		<en>PlayerSpeed: Speed x3</en><de>PlayerSpeed: Geschwindigkeit x3</de><it>PlayerSpeed: Velocità x3</it><es>PlayerSpeed: Velocidad x3</es><fr>SpeedPlayer: Vitesse x3</fr></text>	
+		<text name="key2">  		<en>PlayerSpeed: Speed x8</en><de>PlayerSpeed: Geschwindigkeit x8</de><it>PlayerSpeed: Velocità x8</it><es>PlayerSpeed: Velocidad x8</es><fr>SpeedPlayer: Vitesse x8</fr></text>	
+		<text name="key15">  		<en>PlayerSpeed: Speed x15</en><de>PlayerSpeed: Geschwindigkeit x15</de><it>PlayerSpeed: Velocità x15</it><es>PlayerSpeed: Velocidad x15</es><fr>SpeedPlayer: Vitesse x15</fr></text>
+		<text name="key3">  		<en>PlayerSpeed: Speed x20</en><de>PlayerSpeed: Geschwindigkeit x20</de><it>PlayerSpeed: Velocità x20</it><es>PlayerSpeed: Velocidad x20</es><fr>SpeedPlayer: Vitesse x20</fr></text>
+		<text name="keyslow1">		<en>PlayerSpeed: Speed x0.7</en><de>PlayerSpeed: Geschwindigkeit x0.7</de><it>PlayerSpeed: Velocità x0.7</it><es>PlayerSpeed: Velocidad x0.7</es><fr>SpeedPlayer: Vitesse x0.7</fr></text>	
+		<text name="keyslow2">		<en>PlayerSpeed: Speed x0.5</en><de>PlayerSpeed: Geschwindigkeit x0.5</de><it>PlayerSpeed: Velocità x0.5</it><es>PlayerSpeed: Velocidad x0.5</es><fr>SpeedPlayer: Vitesse x0.5</fr></text>	
+		<text name="keyslow3"> 		<en>PlayerSpeed: Speed x0.2</en><de>PlayerSpeed: Geschwindigkeit x0.2</de><it>PlayerSpeed: Velocità x0.2</it><es>PlayerSpeed: Velocidad x0.2</es><fr>SpeedPlayer: Vitesse x0.2</fr></text>
+		<text name="othermod">  	<en>Farmer speed not handled by PlayerSpeed</en><de><![CDATA[Geschwindigkeit nicht von PlayerSpeed abhängig]]></de><it><![CDATA[Velocità del giocatore non gestita da PlayerSpeed]]></it><es><![CDATA[La velocidad no está controlada por PlayerSpeed]]></es><fr>La vitesse du personnage n'est pas controlée par le mod SpeedPlayer</fr></text>
 
-		<text name="input_SPEEDMINUS">   <en>PlayerSpeed: Decrease speed</en><de>PlayerSpeed: Geschwindigkeit reduzieren</de><it>PlayerSpeed: Diminuisci velocità</it></text>
-		<text name="input_SPEEDPLUS">   <en>PlayerSpeed: Increase speed</en><de>PlayerSpeed: Geschwindigkeit erhöhen</de><it>PlayerSpeed: Aumenta velocità</it></text>
+		<text name="input_SPEEDMINUS">   <en>PlayerSpeed: Decrease speed</en><de>PlayerSpeed: Geschwindigkeit reduzieren</de><it>PlayerSpeed: Diminuisci velocità</it><fr>SpeedPlayer: Réduire la vitesse</fr></text>
+		<text name="input_SPEEDPLUS">   <en>PlayerSpeed: Increase speed</en><de>PlayerSpeed: Geschwindigkeit erhöhen</de><it>PlayerSpeed: Aumenta velocità</it><fr>SpeedPlayer: Augmenter la vitesse</fr></text>
 	</l10n>
 	
 	<actions>
