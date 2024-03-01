@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+    <translationContributors></translationContributors>
+    <locale>es</locale>
+
+    <elements>
+        <e k="key0" v="PlayerSpeed: Velocidad normal"/>
+        <e k="key1" v="PlayerSpeed: Velocidad x3"/>
+        <e k="key2" v="PlayerSpeed: Velocidad x8"/>
+        <e k="key15" v="PlayerSpeed: Velocidad x15"/>
+        <e k="key3" v="PlayerSpeed: Velocidad x20"/>
+        <e k="keyslow1" v="PlayerSpeed: Velocidad x0.7"/>
+        <e k="keyslow2" v="PlayerSpeed: Velocidad x0.5"/>
+        <e k="keyslow3" v="PlayerSpeed: Velocidad x0.2"/>
+        <e k="othermod" v="La velocidad no está controlada por PlayerSpeed"/>
+
+        <e k="input_SPEEDMINUS" v="PlayerSpeed: Reducir la velocidad"/>
+        <e k="input_SPEEDPLUS" v="PlayerSpeed: Aumenta la velocidad"/>
+    </elements>
+</l10n>

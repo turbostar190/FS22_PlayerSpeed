@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<l10n>
+    <translationContributors>polosubtil</translationContributors>
+    <locale>fr</locale>
+
+    <elements>
+        <e k="key0" v="PlayerSpeed: Vitesse standard"/>
+        <e k="key1" v="PlayerSpeed: Vitesse x3"/>
+        <e k="key2" v="PlayerSpeed: Vitesse x8"/>
+        <e k="key15" v="PlayerSpeed: Vitesse x15"/>
+        <e k="key3" v="PlayerSpeed: Vitesse x20"/>
+        <e k="keyslow1" v="PlayerSpeed: Vitesse x0.7"/>
+        <e k="keyslow2" v="PlayerSpeed: Vitesse x0.5"/>
+        <e k="keyslow3" v="PlayerSpeed: Vitesse x0.2"/>
+        <e k="othermod" v="La vitesse du personnage n'est pas controlée par le mod PlayerSpeed"/>
+
+        <e k="input_SPEEDMINUS" v="PlayerSpeed: Réduire la vitesse"/>
+        <e k="input_SPEEDPLUS" v="PlayerSpeed: Augmenter la vitesse"/>
+    </elements>
+</l10n>
