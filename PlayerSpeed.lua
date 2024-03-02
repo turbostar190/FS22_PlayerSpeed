@@ -9,7 +9,7 @@ PlayerSpeed = {}
 function PlayerSpeed:loadMap(...)
 	self.SPEEDS = {0.8, 2.0, 2.8, 4.0, 12.0, 32.0, 60.0, 80.0} -- m/s
 	self.SPEEDS_LENGTH = #self.SPEEDS
-	self.TEXTS = {[0.8] = "keyslow3", [2.0] = "keyslow2", [2.8] = "keyslow1", [4.0] = "key0", [12.0] = "key1", [32.0] = "key2", [60.0] = "key15", [80.0] = "key3", ["other"] = "othermod"}
+	self.TEXTS = {[0.8] = "ps_slow02", [2.0] = "ps_slow05", [2.8] = "ps_slow07", [4.0] = "ps_x1", [12.0] = "ps_x3", [32.0] = "ps_x8", [60.0] = "ps_x15", [80.0] = "ps_x20", ["other"] = "ps_othermod"}
 	self.cont = 4 -- It starts with default speed
 	self.eventIdReduce, self.eventIdIncrease = "", ""
 	self.errorDisplayed, self.firstTime = false, true
