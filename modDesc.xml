@@ -20,7 +20,7 @@ Vitesses disponibles: x0.2, x0.5, x0.7, standard, x3, x8, x15, x20]]>
 		</fr>
     </description>
 
-    <iconFilename>modIcon.png</iconFilename>
+	<iconFilename>icon_playerSpeed.png</iconFilename>
     <multiplayer supported="true"/>
     <extraSourceFiles>
         <sourceFile filename="PlayerSpeed.lua" />
