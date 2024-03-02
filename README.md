@@ -12,5 +12,5 @@ Hit `V` key to reduce the player speed.
 Hit `B` key to increase the player speed.
 
 ## Copyright
-Copyright (c) 2021 \*TurboStar*  
+Copyright (c) \*TurboStar*  
 All rights reserved.
