@@ -1,32 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="61">
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="79">
 	<author>*TurboStar*</author>
-    <version>1.0.0.0</version>
-    <title>
+	<version>1.0.1.0</version>
+	<title>
 		<en>Player Speed</en>
-    </title>
-    <description>
+	</title>
+	<description>
 		<en><![CDATA[This mod allows you to set different walking speeds for the farmer.
 
-Available speeds: x0.2, x0.5, x0.7, standard, x3, x8, x15, x20]]>
+Available speeds: x0.2, x0.5, x0.7, standard, x3, x8, x15, x20
+
+Changelog 1.0.1.0:
+- Spanish language corrected and french translations added
+]]>
 		</en>
 		<de><![CDATA[Mit diesem Mod kannst du verschiedene Laufgeschwindigkeiten einstellen.
 
-Verfügbare Geschwindigkeiten: x0.2, x0.5, x0.7, Standard, x3, x8, x15, x20]]>
+Verfügbare Geschwindigkeiten: x0.2, x0.5, x0.7, Standard, x3, x8, x15, x20
+
+Changelog 1.0.1.0:
+- Spanish language corrected and french translations added
+]]>
 		</de>
 		<fr><![CDATA[Ce mod vous permet de régler différentes vitesses d'avancement pour votre personnage lorsqu'il est à pied.
 
-Vitesses disponibles: x0.2, x0.5, x0.7, standard, x3, x8, x15, x20]]>
+Vitesses disponibles: x0.2, x0.5, x0.7, standard, x3, x8, x15, x20
+
+Changelog 1.0.1.0:
+- Spanish language corrected and french translations added
+]]>
 		</fr>
-    </description>
+	</description>
 
 	<iconFilename>icon_playerSpeed.png</iconFilename>
-    <multiplayer supported="true"/>
-    <extraSourceFiles>
-        <sourceFile filename="PlayerSpeed.lua" />
-    </extraSourceFiles>
-	<l10n filenamePrefix="i18n/locale"/>
-	
+	<l10n filenamePrefix="i18n/locale" />
+	<multiplayer supported="true" />
+	<extraSourceFiles>
+		<sourceFile filename="PlayerSpeed.lua" />
+	</extraSourceFiles>
+
 	<actions>
 		<action name="SPEEDMINUS" />
 		<action name="SPEEDPLUS" />

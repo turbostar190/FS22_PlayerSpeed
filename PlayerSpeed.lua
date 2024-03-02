@@ -3,6 +3,7 @@
 -- FS17 refactor, FS19 and FS22 by *TurboStar*
 
 -- v1.0.0.0  		Initial FS22 release
+-- v1.0.1.0			Changed text keys to better reflect their usage
 
 PlayerSpeed = {}
 
